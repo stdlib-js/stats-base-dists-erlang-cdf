@@ -30,10 +30,14 @@ The [cumulative distribution function][cdf] for a [Erlang][erlang-distribution] 
 
 <!-- <equation class="equation" label="eq:erlang_cdf" align="center" raw="F(x; k,\lambda) = 1 - \sum_{n=0}^{k-1}\frac{1}{n!}e^{-\lambda x}(\lambda x)^n" alt="Cumulative distribution function for a Erlang distribution."> -->
 
-<div class="equation" align="center" data-raw-text="F(x; k,\lambda) = 1 - \sum_{n=0}^{k-1}\frac{1}{n!}e^{-\lambda x}(\lambda x)^n" data-equation="eq:erlang_cdf">
+```math
+F(x; k,\lambda) = 1 - \sum_{n=0}^{k-1}\frac{1}{n!}e^{-\lambda x}(\lambda x)^n
+```
+
+<!-- <div class="equation" align="center" data-raw-text="F(x; k,\lambda) = 1 - \sum_{n=0}^{k-1}\frac{1}{n!}e^{-\lambda x}(\lambda x)^n" data-equation="eq:erlang_cdf">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@51534079fef45e990850102147e8945fb023d1d0/lib/node_modules/@stdlib/stats/base/dists/erlang/cdf/docs/img/equation_erlang_cdf.svg" alt="Cumulative distribution function for a Erlang distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -43,20 +47,30 @@ where `k` is the shape parameter and `lambda` is the rate parameter. The [Erlang
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-erlang-cdf
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-cdf@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-cdf@esm/index.mjs';
+var cdf = require( '@stdlib/stats-base-dists-erlang-cdf' );
 ```
 
 #### cdf( x, k, lambda )
@@ -150,15 +164,10 @@ y = mycdf( 2.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-cdf@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var cdf = require( '@stdlib/stats-base-dists-erlang-cdf' );
 
 var lambda;
 var k;
@@ -173,10 +182,6 @@ for ( i = 0; i < 20; i++ ) {
     y = cdf( x, k, lambda );
     console.log( 'x: %d, k: %d, λ: %d, F(x;k,λ): %d', x.toFixed( 4 ), k, lambda.toFixed( 4 ), y.toFixed( 4 ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -200,7 +205,7 @@ for ( i = 0; i < 20; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -244,7 +249,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
