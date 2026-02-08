@@ -65,13 +65,13 @@ where `k` is the shape parameter and `lambda` is the rate parameter. The [Erlang
 ## Usage
 
 ```javascript
-import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-cdf@deno/mod.js';
+import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-cdf@v0.2.3-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-cdf@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-cdf@v0.2.3-deno/mod.js';
 ```
 
 #### cdf( x, k, lambda )
@@ -169,7 +169,7 @@ y = mycdf( 2.0 );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-cdf@deno/mod.js';
+import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-cdf@v0.2.3-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
