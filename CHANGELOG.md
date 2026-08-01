@@ -4,13 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-24)
+## Unreleased (2026-08-01)
 
 <section class="features">
 
 ### Features
 
--   [`6e8f0f3`](https://github.com/stdlib-js/stdlib/commit/6e8f0f36c936495ba1af380d68f43c9fdc7977a5) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
+-   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
 
 </section>
 
@@ -34,7 +34,7 @@ This release closes the following issue:
 
 <details>
 
--   [`6e8f0f3`](https://github.com/stdlib-js/stdlib/commit/6e8f0f36c936495ba1af380d68f43c9fdc7977a5) - **feat:** add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt)_
+-   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - **feat:** add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt)_
 
 </details>
 
