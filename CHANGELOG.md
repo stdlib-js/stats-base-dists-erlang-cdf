@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-07)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
 -   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - **feat:** add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt)_
 
 </details>
